@@ -4,7 +4,7 @@
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-**A data-driven analysis to optimize revenue and operational efficiency for a food aggregator platform.**
+> **A data-driven analysis to optimize revenue and operational efficiency for a food aggregator platform.**
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -134,7 +134,6 @@ Below are selected visuals from the project analysis.
 
 ## Author
 **Nabankur Ray**
-*Data Scientist | Business Analyst | Machine Learning Engineer*
 
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/nabankur14)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/nabankur-ray)
