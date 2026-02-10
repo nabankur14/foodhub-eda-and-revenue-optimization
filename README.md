@@ -67,7 +67,7 @@ This project analyzes customer orders from FoodHub, a New York-based food aggreg
 ![NumPy](https://img.shields.io/badge/-NumPy-013243?logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557C?logo=python&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/-Seaborn-7db9e8?logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?logo=jupyter&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?logo=googlecolab&logoColor=white)
 
 **Soft Skills**
 ![Analytical Thinking](https://img.shields.io/badge/-Analytical_Thinking-lightgrey)
