@@ -106,10 +106,10 @@ foodhub-eda-and-revenue-optimization/
 ### Visuals from the Project
 Below are selected visuals from the project analysis.
 
-![Order Cost](../visuals/charts/order_cost_distribution.png)
+![Order Cost](visuals/charts/order_cost_distribution.png)
 *Distribution of order costs showing prevalent spending habits.*
 
-![Top Restaurants](../visuals/charts/top_restaurants.png)
+![Top Restaurants](visuals/charts/top_restaurants.png)
 *Top 10 performing restaurants on the platform.*
 
 ## How to Run

@@ -5,11 +5,11 @@ import sys
 import os
 
 # Ensure directories exist
-os.makedirs('../visuals/charts', exist_ok=True)
+os.makedirs('visuals/charts', exist_ok=True)
 
 # Load Data
 try:
-    df = pd.read_csv('../data/raw/foodhub_order.csv')
+    df = pd.read_csv('data/raw/foodhub_order.csv')
 except FileNotFoundError:
     print("Data file not found. Please check data/raw/foodhub_order.csv")
     sys.exit(1)
@@ -20,7 +20,7 @@ sns.histplot(data=df, x='cost_of_the_order', kde=True)
 plt.title('Distribution of Order Cost')
 plt.xlabel('Cost ($)')
 plt.ylabel('Frequency')
-plt.savefig('../visuals/charts/order_cost_distribution.png')
+plt.savefig('visuals/charts/order_cost_distribution.png')
 plt.close()
 print("Saved order_cost_distribution.png")
 
@@ -30,7 +30,7 @@ sns.countplot(data=df, x='rating', order=['3', '4', '5', 'Not given'])
 plt.title('Rating Distribution')
 plt.xlabel('Rating')
 plt.ylabel('Count')
-plt.savefig('../visuals/charts/rating_distribution.png')
+plt.savefig('visuals/charts/rating_distribution.png')
 plt.close()
 print("Saved rating_distribution.png")
 
@@ -41,7 +41,7 @@ sns.barplot(x=top_restaurants.values, y=top_restaurants.index)
 plt.title('Top 10 Restaurants by Order Count')
 plt.xlabel('Number of Orders')
 plt.ylabel('Restaurant Name')
-plt.savefig('../visuals/charts/top_restaurants.png')
+plt.savefig('visuals/charts/top_restaurants.png')
 plt.close()
 print("Saved top_restaurants.png")
 
@@ -52,6 +52,7 @@ plt.title('Cuisine Type Distribution')
 plt.xlabel('Cuisine Type')
 plt.ylabel('Count')
 plt.xticks(rotation=45)
-plt.savefig('../visuals/charts/cuisine_distribution.png')
+plt.savefig('visuals/charts/cuisine_distribution.png')
 plt.close()
 print("Saved cuisine_distribution.png")
+
